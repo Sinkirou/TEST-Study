@@ -1,0 +1,1 @@
+const uniCurd=require("./uni-curd/index.js");exports.main=async(n,e)=>await uniCurd({event:n,context:e,debug:!0});

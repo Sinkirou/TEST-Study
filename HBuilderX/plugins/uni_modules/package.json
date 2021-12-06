@@ -1,0 +1,107 @@
+{
+  "name": "uni_modules",
+  "displayName": "%displayName%",
+  "version": "1.0.0-2021092618",
+  "description": "%description%",
+  "main": "extension.js",
+  "keywords": [],
+  "author": "DCloud",
+  "_dc_signatures": "afc4cae3d6fd845487e6b2caf90816b7a6ce1ee9bd97cdda05d0777280d65d7a27a190690d96720c39e988abee6eb808",
+  "publisher": "DCloud",
+  "engines": {
+    "HBuilderX": "^2.9.9"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "uni_modules.mkdir",
+        "title": "%mkdir%(&X)"
+      },
+      {
+        "command": "uni_modules.create",
+        "title": "%create%(&H)"
+      },
+      {
+        "command": "uni_modules.upload",
+        "title": "%upload%(&J)"
+      },
+      {
+        "command": "uni_modules.update",
+        "title": "%update%(&W)"
+      },
+      {
+        "command": "uni_modules.install",
+        "title": "%install%(&Q)"
+      },
+      {
+        "command": "uni_modules.updateInfo",
+        "title": "%updateInfo%(&L)"
+      },
+      {
+        "command": "uni_modules.view",
+        "title": "%view%(&V)"
+      }
+    ],
+    "expressions": {
+      "isUniAppPackageJson": "workspaceFolder.type == 'UniApp_Vue' && workspaceFolderRelativePath == 'package.json'",
+      "isExtensionPackageJson": "workspaceFolder.type == 'Extension' && workspaceFolderRelativePath == 'package.json'",
+      "isUniModulePluginRoot": "explorerResourceIsFolder && workspaceFolder.type == 'UniApp_Vue' && ...workspaceFolderRelativePath =~ /^(uni_modules|src\\/uni_modules)\\/[^\\/]*$/",
+      "mkdir": "!(file.exists <- '${workspaceFolder}/uni_modules') && !(file.exists <- '${workspaceFolder}/src/uni_modules') && explorerResourceCount == 1 && explorerResourceIsWorkspaceFolder && workspaceFolder.type == 'UniApp_Vue'",
+      "create": "explorerResourceCount == 1 && explorerResourceIsFolder && workspaceFolder.type == 'UniApp_Vue' && ...workspaceFolderRelativePath =~ /^(uni_modules|src\\/uni_modules)$/",
+      "uploadOrView": "explorerResourceCount == 1 && (expression.isExtensionPackageJson || expression.isUniModulePluginRoot || expression.isUniAppPackageJson)",
+      "install": "explorerResourceCount == 1 && expression.isUniModulePluginRoot",
+      "update": "expression.isUniModulePluginRoot || expression.isUniAppPackageJson"
+    },
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "uni_modules.mkdir",
+          "group": "new",
+          "when": "expression.mkdir"
+        },
+        {
+          "command": "uni_modules.create",
+          "group": "new",
+          "when": "expression.create"
+        },
+        {
+          "command": "uni_modules.upload",
+          "group": "new",
+          "when": "expression.uploadOrView"
+        },
+        {
+          "command": "uni_modules.update",
+          "group": "new",
+          "when": "expression.update"
+        },
+        {
+          "command": "uni_modules.update",
+          "group": "new",
+          "when": "expression.create",
+          "title": "%updateAll%(&W)"
+        },
+        {
+          "command": "uni_modules.install",
+          "group": "new",
+          "when": "expression.install"
+        },
+        {
+          "command": "uni_modules.updateInfo",
+          "group": "new",
+          "when": "expression.uploadOrView"
+        },
+        {
+          "command": "uni_modules.view",
+          "group": "new",
+          "when": "expression.uploadOrView"
+        },
+        {
+          "group": "new"
+        }
+      ]
+    }
+  }
+}

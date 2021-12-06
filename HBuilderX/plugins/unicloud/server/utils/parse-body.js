@@ -1,0 +1,1 @@
+function parseBody(e){const{"content-type":o}=e.headers;if(0!==o.indexOf("application/json"))return console.error("调试服务不支持此请求，content-type: "+o),{};let t=Buffer.alloc(0);return new Promise((o=>{e.on("data",(e=>{t=Buffer.concat([t,e])})),e.on("end",(()=>{try{o(JSON.parse(t.toString("utf8")))}catch(e){o({})}}))}))}module.exports={parseBody:parseBody};

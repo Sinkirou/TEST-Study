@@ -1,0 +1,4 @@
+{	
+    "description": "uniCloud本地调试插件，支持云函数右键本地运行、客户端调用本地云函数"	,
+    "displayName": "uniCloud本地调试运行插件"
+}

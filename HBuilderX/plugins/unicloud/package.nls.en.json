@@ -1,0 +1,4 @@
+{	
+    "description": "Run cloud functions and jql file locally",
+    "displayName": "uniCloud debugger"
+}

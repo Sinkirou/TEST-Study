@@ -1,0 +1,1 @@
+const fs=require("fs"),Hjson=require("hjson");module.exports={parseJson:function(e){const r=fs.readFileSync(e).toString().replace("\r\n","\n").replace("\r","\n");return Hjson.parse(r)}};

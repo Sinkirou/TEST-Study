@@ -1,0 +1,34 @@
+{
+  "id": "h5-Extension",
+  "name": "H5发行插件",
+  "description": "H5发行插件",
+  "displayName": "H5发行插件",
+  "version": "0.0.10.2021110418",
+  "publisher": "your name",
+  "__private": true,
+  "engines": {
+    "HBuilderX": "^3.2.10"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "extension.js",
+  "activationEvents": [
+    "onLaunch:uniapp:publish:h5"
+  ],
+  "contributes": {
+    "launchers": [
+      {
+        "type": "uniapp:publish:h5",
+        "label": "网站-PC Web或手机H5(仅适用于uni-app)(&H).",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      }
+    ]
+  },
+  "extensionDependencies": [
+    "plugin-manager"
+  ],
+  "dependencies": {},
+  "_dc_signatures": "7a65259049e247966d20d790d09f2590bb820037b4a5fd7449e5c1c6cbd4c73198cbff9966de6e78b6ef53193439422d"
+}

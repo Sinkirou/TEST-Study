@@ -1,0 +1,1 @@
+const loggerType=["error","log","warn"];function getLogger(o){const e={};for(let g=0;g<loggerType.length;g++){const r=loggerType[g];e[r]=function(){o.hxConfig&&!1!==o.hxConfig.systemLog&&console[r](...arguments)}}return e}module.exports={getLogger:getLogger};

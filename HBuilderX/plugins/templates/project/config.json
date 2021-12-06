@@ -1,0 +1,270 @@
+{
+    "uniapp_vue": [
+        {
+            "id": "default",
+            "name": "默认模板",
+            "description": "默认模板",
+            "file": "default.zip"
+        },
+        {
+            "id": "hello-uniapp",
+            "name": "Hello uni-app",
+            "description": "演示uni-app框架的组件、接口、模板（作者：DCloud），<a href='https://ext.dcloud.net.cn/plugin?id=4941'>详情</a>",
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=4941",
+            "nocache": true
+        },
+        {
+            "id": "hello-unicloud",
+            "name": "Hello uniCloud",
+            "description": "演示uniCloud的基本操作（作者：DCloud），<a href='https://ext.dcloud.net.cn/plugin?id=4082'>详情</a>",
+            "provider": [
+                "aliyun",
+                "tcb"
+            ],
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=4082",
+            "nocache": true
+        },
+        {
+            "id": "uniStarter",
+            "name": "uni-starter",
+            "description": "云端一体应用快速开发基本项目模版（作者：DCloud），<a href='https://ext.dcloud.net.cn/plugin?id=5057'>详情</a>",
+            "provider": [
+                "aliyun",
+                "tcb"
+            ],
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=5057",
+            "nocache": true
+        },
+        {
+            "id": "uni-template-admin",
+            "name": "uni-admin",
+            "description": "admin管理系统基础框架（作者：DCloud），<a href='https://ext.dcloud.net.cn/plugin?id=3268'>详情</a>",
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=3268",
+            "provider": [
+                "aliyun",
+                "tcb"
+            ],
+            "nocache": true
+        },
+        {
+            "id": "uni-ui",
+            "name": "uni-ui项目",
+            "description": "基于uni-app的 UI 组件库（作者：DCloud），<a href='https://ext.dcloud.net.cn/plugin?id=55'>详情</a>",
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=55",
+            "nocache": true
+        },
+        {
+            "id": "news",
+            "name": "新闻/资讯模板",
+            "description": "支持PC和nvue的新闻模板（作者：DCloud），<a href='https://ext.dcloud.net.cn/plugin?id=103'>详情</a>",
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=103",
+            "nocache": true
+        },
+        {
+            "id": "tab-plus",
+            "name": "底部选项卡模板",
+            "description": "中间带+号的底部选项卡（作者：DCloud），<a href='https://ext.dcloud.net.cn/plugin?id=98'>详情</a>",
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=98",
+            "nocache": true
+        },
+        {
+            "id": "mix-mall",
+            "name": "电商模板",
+            "description": "云端一体全套电商模板（作者：MixR），<a href='https://ext.dcloud.net.cn/plugin?id=2413'>详情</a>",
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=2413",
+            "provider": [
+                "tcb"
+            ],
+            "nocache": true,
+            "license": true
+        },
+        {
+            "id": "baker-app",
+            "name": "贝壳阅读",
+            "description": "小说变现云端一体模板（作者：BaseCloud），<a href='https://ext.dcloud.net.cn/plugin?id=5187'>详情</a>",
+            "file": "https://ext.liuyingyong.cn/hbuilder/download?pluginId=5187",
+            "provider": [
+                "aliyun",
+                "tcb"
+            ],
+            "nocache": true,
+            "license": true
+        },
+        {
+            "id": "uViewUI",
+            "name": "uView UI",
+            "description": "uView UI模版（作者：uViewUI），<a href='https://ext.dcloud.net.cn/plugin?id=1593'>详情</a>",
+            "file": "https://resource-aliyun.dcloud.net.cn/marketplace/5ab8e230-77fe-11ea-b35c-1dbe44a1237e/plugin_example_ide.zip",
+            "nocache": true
+        }
+    ],
+    "quickapp": [
+        {
+            "id": "default",
+            "name": "默认模板",
+            "description": "默认模板",
+            "file": "default.zip"
+        },
+        {
+            "id": "hello-quickapp",
+            "name": "Hello QuickApp",
+            "description": "快应用示例模板",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/quickapp/hello-quickapp.zip",
+            "npmName": "hbuilderx-project-template-quickapp-hello-quickapp",
+            "npmVersion": "0.0.1-2019102117"
+        }
+    ],
+    "extension": [
+        {
+            "id": "HBuilderX-Extension",
+            "name": "插件扩展开发",
+            "description": "开发HBuilderX插件的简单示例",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/extension/HelloForHBuilderXExtension.zip",
+            "validate-regex": "^[a-zA-Z][a-zA-Z0-9_-]*[a-zA-Z0-9]$",
+            "validate-error-msg": "插件名称不合法，仅支持英文字母和数字",
+            "npmName": "hbuilderx-project-template-extension-hbuilderx-extension",
+            "npmVersion": "0.0.1-2021012210"
+        },
+        {
+            "id": "snippet",
+            "name": "snippet",
+            "description": "代码块插件",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/extension/snippet.zip",
+            "validate-regex": "^[a-zA-Z][a-zA-Z0-9_-]*[a-zA-Z0-9]$",
+            "validate-error-msg": "插件名称不合法，仅支持英文字母和数字",
+            "npmName": "hbuilderx-project-template-extension-snippet",
+            "npmVersion": "0.0.1-2021012210"
+        },
+        {
+            "id": "QuickPick",
+            "name": "QuickPick",
+            "description": "演示插件API showQuickPick的基本操作",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/extension/QuickPick.zip",
+            "validate-regex": "^[a-zA-Z][a-zA-Z0-9_-]*[a-zA-Z0-9]$",
+            "validate-error-msg": "插件名称不合法，仅支持英文字母和数字",
+            "npmName": "hbuilderx-project-template-extension-quickpick",
+            "npmVersion": "0.0.1-2021012210"
+        },
+        {
+            "id": "webviewdialog",
+            "name": "webviewdialog",
+            "description": "演示插件API WebViewDialog的基本操作",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/extension/webviewdialog.zip",
+            "validate-regex": "^[a-zA-Z][a-zA-Z0-9_-]*[a-zA-Z0-9]$",
+            "validate-error-msg": "插件名称不合法，仅支持英文字母和数字",
+            "npmName": "hbuilderx-project-template-extension-webviewdialog",
+            "npmVersion": "0.0.1-2021060514"
+        }
+    ],
+    "web": [
+        {
+            "id": "default",
+            "name": "空项目",
+            "description": "仅包含一个工程目录",
+            "file": "default.zip"
+        },
+        {
+            "id": "simple",
+            "name": "基本HTML项目",
+            "description": "包含index.html和css、js、img目录",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/web/simple.zip"
+        },
+        {
+            "id": "html_vue",
+            "name": "vue项目(普通模式)",
+            "description": "在html中引用vue.js (v3.2.8)",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/web/html_vue.zip"
+        },
+        {
+            "id": "vue3-cli",
+            "name": "vue3项目(3.2.8)",
+            "description": "vue3-cli默认项目（包含vite）",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/web/vue3_cli_default.zip",
+            "npmName": "hbuilderx-project-template-web-vue3-cli",
+            "npmVersion": "0.0.1-2021090312",
+            "install": true
+        },
+        {
+            "id": "hello-vue",
+            "name": "vue项目(2.6.10)",
+            "description": "vue-cli默认项目（仅包含babel）",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/web/vue_cli_default.zip",
+            "npmName": "hbuilderx-project-template-web-hello-vue",
+            "npmVersion": "0.0.1-2019102117"
+        }
+    ],
+    "app": [
+        {
+            "id": "default",
+            "name": "默认模板",
+            "description": "默认模板",
+            "file": "default.zip"
+        },
+        {
+            "id": "mui",
+            "name": "mui项目",
+            "description": "已包含mui的js、css、字体资源的项目模板",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/app/mui.zip",
+            "npmName": "hbuilderx-project-template-app-mui",
+            "npmVersion": "0.0.1-2021092618"
+        },
+        {
+            "id": "mui-login-setting",
+            "name": "mui登录模板",
+            "description": "带登录和设置的MUI项目模板",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/app/mui-login-setting.zip",
+            "npmName": "hbuilderx-project-template-app-mui-login-setting",
+            "npmVersion": "0.0.1-2021092618"
+        },
+        {
+            "id": "nativeTab",
+            "name": "底部选项卡模板",
+            "description": "原生选项卡示例，含tab中部凸起半圆示例",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/app/nativeTab.zip",
+            "npmName": "hbuilderx-project-template-app-nativetab",
+            "npmVersion": "0.0.1-2021092618"
+        },
+        {
+            "id": "helloh5plus",
+            "name": "Hello H5+",
+            "description": "HTML5Plus规范的演示，包含摄像头等各种底层能力的调用",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/app/helloh5plus.zip",
+            "npmName": "hbuilderx-project-template-app-helloh5plus",
+            "npmVersion": "0.0.1-2020031913"
+        },
+        {
+            "id": "hellomui",
+            "name": "Hello mui",
+            "description": "mui前端框架各种UI控件（如按钮）的展示",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/app/hellomui.zip",
+            "npmName": "hbuilderx-project-template-app-hellomui",
+            "npmVersion": "0.0.1-2021092618"
+        }
+    ],
+    "wap2app": [
+        {
+            "id": "default",
+            "name": "默认模板",
+            "description": "默认模板",
+            "file": "default.zip"
+        },
+        {
+            "id": "__W2A__hello.wap2app.dcloud.io",
+            "name": "Hello wap2app",
+            "description": "Wap2App基本功能演示",
+            "file": "https://update.liuyingyong.cn/hbuilderx/alpha/project-template/project-template.1.0.1.2021112217/project/wap2app/hellowap2app.zip",
+            "npmName": "hbuilderx-project-template-wap2app-hellowap2app",
+            "npmVersion": "0.0.1-2021040116"
+        }
+    ],
+    "miniapp": [
+        {
+            "id": "default",
+            "name": "默认模板",
+            "description": "默认模板",
+            "file": "default.zip"
+        }
+    ],
+    "version": "1.0.1.2021112217",
+    "source": "https://update.liuyingyong.cn/hbuilderx/template/project/config.json"
+}

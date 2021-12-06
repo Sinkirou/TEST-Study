@@ -1,0 +1,1 @@
+const bus=require("../utils/bus");module.exports={"hx/update-secret":({uniCloudSecret:e,expired:s,provider:r,code:t,message:d})=>{t?bus.emit("secretUpdated",{code:t,message:d}):(process.env.UNICLOUD_SECRET=e,process.env.UNICLOUD_SECRET_EXPIRED=Number(s),process.env.SPACE_PROVIDER=r,bus.emit("secretUpdated"))}};

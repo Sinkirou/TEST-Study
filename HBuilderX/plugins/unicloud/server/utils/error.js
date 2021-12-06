@@ -1,0 +1,1 @@
+module.exports=class extends Error{constructor({code:e,message:s}){super(s),this.code=e}};

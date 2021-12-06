@@ -1,0 +1,1 @@
+const BaseController=require("./base");module.exports=class extends BaseController{constructor(){super(),this.name="system"}};

@@ -1,0 +1,12 @@
+{
+  "displayName": "uni_modules",
+  "description": "Standard Tooling for uni_modules Development",
+  "mkdir": "Make directory (uni_modules)",
+  "create": "New Module (uni_modules)",
+  "upload": "Upload Module (uni_modules)",
+  "update": "Update Module (uni_modules)",
+  "updateAll": "Update All Modules (uni_modules)",
+  "install": "Install Deps (uni_modules)",
+  "updateInfo": "Update Module info (uni_modules)",
+  "view": "Marketplace (uni_modules)"
+}

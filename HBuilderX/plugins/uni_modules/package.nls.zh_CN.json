@@ -1,0 +1,12 @@
+{
+  "displayName": "uni_modules插件",
+  "description": "管理符合uni_modules规范的uni-app插件，支持上传，更新，删除等操作。",
+  "mkdir": "新建uni_modules目录",
+  "create": "新建uni_modules插件",
+  "upload": "发布到插件市场",
+  "update": "从插件市场更新",
+  "updateAll": "从插件市场更新所有插件",
+  "install": "安装插件三方依赖",
+  "updateInfo": "修改插件基本信息",
+  "view": "浏览插件市场详情页"
+}
